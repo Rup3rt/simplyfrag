@@ -1,0 +1,1203 @@
+@font-face
+  font-family: Stratum_L
+  src: url("../fonts/Stratum1WebLight-_1_.otf")
+@font-face
+  font-family: Myfont
+  src: url("../fonts/iconfont.ttf")
+@font-face
+  font-family: Stratun_B
+  src: url("../fonts/Stratum2WebBold-_1_.otf")
+
+body
+  background: url("../img/background.png")
+  font-family: Stratum_L
+
+
+
+.top-header
+  padding: 40px 0
+  .logo
+   position: relative
+   z-index: -2
+   &:before
+    content: ''
+    width: 100px
+    height: 260px
+    position: absolute
+    -moz-border-radius: 200px / 50px
+    -webkit-border-radius: 100px / 50px
+    background-color: #071c37
+    z-index: -3
+    top: -98px
+    left: 0
+
+    border-radius: 100%
+    box-shadow: 0 0 57px 28px rgba(7,28,55,1)
+    transform: rotate(-44deg)
+
+
+  .login_href
+    display: inline-block
+
+
+    .login_text
+      color: #fff
+    &:hover
+      text-decoration: none
+.top-header
+ .logo
+  display: inline-block
+.navbar-nav>li
+
+ float: none!important
+ display: table-cell
+.navbar-nav
+ display: table
+ width: 100%
+ a
+   text-align: center
+.navbar-default .navbar-nav>li>a
+  color: #fff
+  &:hover
+    color: #fff
+.navbar-default
+  background: rgba(30,38,47,1)
+  background: -moz-linear-gradient(top, rgba(30,38,47,1) 0%, rgba(37,44,56,1) 100%)
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(30,38,47,1)), color-stop(100%, rgba(37,44,56,1)))
+  background: -webkit-linear-gradient(top, rgba(30,38,47,1) 0%, rgba(37,44,56,1) 100%)
+  background: -o-linear-gradient(top, rgba(30,38,47,1) 0%, rgba(37,44,56,1) 100%)
+  background: -ms-linear-gradient(top, rgba(30,38,47,1) 0%, rgba(37,44,56,1) 100%)
+  background: linear-gradient(to bottom, rgba(30,38,47,1) 0%, rgba(37,44,56,1) 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e262f', endColorstr='#252c38', GradientType=0 )
+  border: none
+  -webkit-box-shadow: -2px -1px 12px -2px rgba(0,0,0,0.75)
+  -moz-box-shadow: -2px -1px 12px -2px rgba(0,0,0,0.75)
+  box-shadow: -2px -1px 12px -2px rgba(0,0,0,0.75)
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header
+  margin: 0
+
+.ban_index
+  padding-top: 90px
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+  background: url("../img/hover_li.png")no-repeat
+  background-size: cover
+  color: #fff
+  border-bottom: 1px solid #00a7ff
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
+  color: #fff
+.navbar-nav li
+  position: relative
+.navbar-nav li:after
+  content: ''
+  width: 1px
+  height: 40px
+  position: absolute
+  background: #1d232b
+  top: 4px
+  right: 0
+.navbar-nav li:nth-last-child(1):after
+  width: 0
+.navbar-default .container
+  padding: 0
+  .container-fluid
+    padding: 0
+.navbar
+  margin: 20px 0
+section
+
+  margin-top: -80px
+  .name
+    display: inline-block
+    h2
+     font-size: 36px
+     color: #00a7ff
+     margin: 0
+    span
+     color: #95979c
+.form-control:focus
+  border-color: transparent
+  box-shadow: none
+  -webkit-box-shadow: none
+.search
+  width: 347px
+  display: inline-block
+  position: relative
+  &:after
+    content: ''
+    position: absolute
+    background: url('../img/border_search.png')
+    width: 348px
+    height: 11px
+    bottom: 5px
+    left: 0
+
+
+  .form-control
+   padding: 10px 3px
+   &:focus
+    border-color: transparent
+    box-shadow: none
+    -webkit-box-shadow: none
+
+  .button-default:active:focus,
+  .button-default:active:hover,
+  .button-default:active,
+  .button-default:focus,
+  .btn-default:active,
+  .btn-default:focus,
+  .btn-default:hover
+    background-color: transparent
+    border-color: transparent
+    color: #00a7ff
+  input
+    background-color: transparent
+    border: none
+    color: #fff
+    height: 60px
+
+
+  .input-group
+    font-size: 20px
+
+  button
+    color: #00a7ff
+    background-color: transparent
+    border: none
+    font-size: 20px
+
+section .main_table
+
+  width: 100%
+  overflow-x: scroll
+  tr
+   border: 2px solid #181d28
+   background: #13171f
+
+   th
+    color: #c2c3c5
+    padding: 20px 20px
+    background: #212731
+   td
+    color: #939598
+    padding: 20px 20px
+    position: relative
+
+
+
+section .wrapper_main_table
+
+  width: 100%
+
+section .main_table tr:hover
+  -moz-box-shadow:    inset 0 0 10px #124565
+  -webkit-box-shadow: inset 0 0 10px #124565
+  box-shadow:         inset 0 0 10px #124565
+
+
+section .pagination_c
+  text-align: center
+  li
+     a
+      background: transparent
+      border: none
+      color: #FFFFFF
+      position: relative
+      &:after
+       content: ''
+       position: absolute
+       width: 1px
+       height: 15px
+       background-color: #FFFFFF
+       right: 0
+       top: 8px
+
+
+
+  .active a
+     background: transparent
+     color: #0b689c
+     &:hover
+      background: transparent
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover
+  background: transparent
+section .pagination_c li:nth-child(1) a:after, section .pagination_c li:nth-last-child(1) a:after,section .pagination_c li:nth-last-child(2) a:after
+  width: 0
+
+.navbar_footer
+  background: transparent
+  box-shadow: none
+  border-top: 1px solid #13171f
+  border-bottom: 1px solid #13171f
+  li
+    &:after
+     background: #13171f
+footer
+ .bottom_footer
+   .copyright
+    color: #7e8187
+    display: inline-block
+   .soc_media
+    list-style: none
+    padding: 0
+    display: inline-block
+
+    li
+     display: inline-block
+     margin: 0 2px
+     font-family: iconfont
+     span
+        font-size: 24px
+        color: #fff
+
+footer .bottom_footer li a:focus, footer .bottom_footer li a:hover
+  text-decoration: none
+
+footer .soc_media li:hover span, footer .soc_media li:focus span
+
+  color: #029ef1
+  text-decoration: none
+
+
+.homepage, .login, .email, .call_for_help
+  padding-top: 100px
+
+
+  .main_block
+    text-align: center
+    color: #00a7ff
+    h2
+     font-size: 36px
+     position: relative
+     &:after
+       content: ''
+       width: 137px
+       height: 1px
+       margin: 10px auto
+       background: #00a7ff
+       display: block
+    h1
+     font-size: 62px
+     font-family: Stratun_B
+     margin-bottom: 0
+     line-height: 40px
+    .sub_text
+     line-height: 40px
+     font-size: 16px
+     color: #95979c
+     margin: 30px auto
+     .cover
+       -moz-box-shadow:    inset 0 0 10px #124565
+       -webkit-box-shadow: inset 0 0 10px #124565
+       box-shadow:         inset 0 0 10px #124565
+       padding: 9px
+       position: relative
+       &:after
+        content: ''
+        background: url("../img/border_table.png")no-repeat
+        width: 9px
+        height: 35px
+        position: absolute
+        left: 0
+        top: 0
+        background-size: contain
+       &:before
+        content: ''
+        background: url("../img/bordr_table_2.png")no-repeat
+        width: 9px
+        height: 35px
+        position: absolute
+        right: -5px
+        top: 0
+        background-size: contain
+#login_button
+  width: 405px
+  height: 118px
+  background-color: #13171f
+  -moz-box-shadow:    inset 0 0 40px #124565
+  -webkit-box-shadow: inset 0 0 40px #124565
+  box-shadow:         inset 0 0 40px #124565
+  border: none
+  position: relative
+  margin-bottom: 50px
+  &:after
+    content: ''
+    background: url("../img/border_table.png")no-repeat
+    width: 19px
+    height: 118px
+    position: absolute
+    left: 0
+    top: 0
+    background-size: contain
+  &:before
+      content: ''
+      background: url("../img/bordr_table_2.png")no-repeat
+      width: 19px
+      height: 118px
+      position: absolute
+      right: -5px
+      top: 0
+      background-size: contain
+.members .col-md-3
+  margin: 10px 0
+
+section
+  padding-top: 80px
+  .member_nickname
+    color: #FFFFFF
+
+
+  .activity
+    color: #acaeb3
+    position: relative
+    &:after
+      content: ''
+      width: 13px
+      height: 13px
+      background: #a2a2a2
+      position: absolute
+      right: -20px
+      top: 2px
+      border-radius: 10px
+  .online
+    &:after
+     background: #83c550
+.member_menu
+  padding-top: 40px
+.overlay
+    background: url("../img/member_hover_corner.png")no-repeat
+
+    z-index: 0
+    width: 100%
+    height: 100%
+    background-size: 100% 100%
+
+section .image-container
+  position: relative
+  &:hover .overlay
+    z-index: 100
+    position: absolute
+    .view_product
+      position: relative
+      top: 50%
+      display: block
+      text-align: center
+.donate .view_product_span
+  color: #FFFFFF
+  font-size: 18px
+
+
+section .member
+  max-width: 256px
+  margin: 0 auto
+  a
+    text-decoration: none
+
+
+
+
+.members .member_menu
+  padding-bottom: 60px
+  img
+    width: 100%
+    border-radius: 10px
+    border: 1px solid #10496d
+    z-index: 50
+    height: 256px
+
+body
+  min-width: 360px
+  overflow-x: hidden
+  margin: 0
+  padding: 0
+
+.profile
+  padding-top: 100px
+  .name
+    display: inline
+    text-align: center
+.profile .profile_info
+  max-width: 256px
+  display: block
+  margin: 50px auto
+  span
+    color: #6d7179
+    font-size: 16px
+  .profile_info_span
+    font-size: 18px
+    color: #FFFFFF
+    padding: 0 20px
+.profile
+  .profile_img
+    img
+     max-width: 256px
+     max-height: 256px
+     border: 1px solid #104a6e
+     border-radius: 10px
+     margin: 20px auto
+     display: block
+
+div.tab_profile
+  overflow: hidden
+  text-align: center
+
+
+
+
+/* Style the links inside the tab */
+.tab_profile a
+
+  display: inline-block
+  color: #eff0f0
+  text-align: center
+  padding: 14px 16px
+  text-decoration: none
+  transition: 0.3s
+  font-size: 17px
+  background: #13171f
+
+
+
+
+/* Change background color of links on hover */
+div.tab_profile a:hover
+  background-color: #1a1f29
+
+
+/* Create an active/current tablink class */
+div.tab_profile a:focus, .active
+  background-color: #1e2934
+  border-bottom: 1px solid #00a3f9
+
+
+/* Style the tab content */
+.tabcontent
+  display: none
+  padding: 6px 12px
+
+#Player_info
+ background: #13171f
+ .player_model
+  .subname
+    color: #FFFFFF
+    text-align: center
+    padding: 20px 0
+  img
+    display: block
+    margin: 10px auto
+
+#Player_info
+  .win_rate
+    padding: 20px 0
+    color: #a1a2a5
+    text-align: center
+
+    .name
+     color: #00a7ff
+     font-size: 24px
+     font-family: Stratun_B
+
+#Player_info
+  .win_rate
+    .win_rate_info
+     text-align: center
+     .win_loss_rate
+       padding: 0 10px
+       color: #00a7ff
+       font-size: 18px
+
+#Player_info
+  .win_rate_sub_info
+    padding: 10px 0
+    display: block
+    color: #a1a2a5
+    tr
+     td
+      padding: 7px  20px
+      &:nth-child(2)
+       color: #FFFFFF
+#Player_info
+  .win_rate_main_info
+    .name
+     font-size: 20px
+     color: #00a7ff
+     padding: 0 20px
+
+#Staff_Application
+  .rank_input
+    width: 100%
+    border: none
+    border-bottom: 1px solid #00a7ff!important
+    background: transparent
+    color: #FFFFFF
+  span
+    padding: 10px
+
+#Staff_Application
+  padding: 20px
+  .form-control
+    background: none
+    border: none
+    border-radius: 0
+
+#Staff_Application
+  background: #13171f
+  span
+    padding: 20px 0
+    display: block
+    color: #42454c
+
+  .rank_input
+    position: relative
+
+
+    &:after
+     content: ''
+     background: url("../img/input_after_ico.png")
+     width: 6px
+     height: 11px
+     position: absolute
+     right: -8px
+     bottom: -1px
+
+#Staff_Application
+  .rank_input_main_wrapper
+    padding-top: 70px
+    position: relative
+    .rank_input_main
+
+      border: 2px solid #00a7ff
+      padding-top: 30px
+      color: #FFFFFF
+
+    &:after
+      content: ''
+      background: url("../img/input_after_ico2.png")
+      width: 6px
+      height: 11px
+      position: absolute
+      right: -8px
+      bottom: -1px
+#Staff_Application
+  .my_button
+    img
+     margin-left: 15px
+
+#Player_info
+  .item_info
+    padding: 10px 20px
+    display: block
+    color: #a1a2a5
+    font-size: 16px
+
+
+
+
+
+::-webkit-scrollbar
+  width: 3px
+::-webkit-scrollbar-track
+    width: 1px
+    background: #102b3f
+::-webkit-scrollbar-thumb
+    width: 5px
+    background: #00a7ff
+#Friends .member_wrapper img
+  border-radius: 10px
+  border: 1px solid #0d4567
+
+#Friends
+  background: #13171f
+  padding: 20px 0
+.tabcontent
+  padding:  0
+
+#Friends .member_wrapper img
+  margin: 0 auto
+#Friends .tab_profile a:hover
+  background-color: transparent
+
+
+/* Create an active/current tablink class */
+#Friends.tab_profile a:focus, .active
+  background-color: transparent
+  border-bottom: none
+  text-decoration: none
+
+#login_img
+  max-width: 72px
+  max-height: 72px
+  display: inline
+  margin: 0 10px
+.login_img
+  max-width: 72px
+  max-height: 72px
+  display: inline
+  margin: 0 10px
+#User_name
+ color: #FFFFFF
+ font-size: 16px
+
+#dropdownMenu1
+  cursor: pointer
+  .caret
+   color: #00a7ff
+.login_img_wraper
+    display: inline-block
+    position: relative
+    &:before
+     content: ''
+     background: url("../img/username_before.png")
+     width: 27px
+     height: 74px
+     left: -5px
+     top: 0
+     position: absolute
+.dropdown .dropdown-menu
+  top: 96px
+  border: 1px solid #124262
+  background: #262c37
+  a
+    color: #ffffff
+    border: 1px solid transparent
+    i
+     color: #000000
+     font-size: 16px
+     padding-right: 5px
+.dropdown-menu .divider
+    background: #20252f
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover
+  -moz-box-shadow:    inset 0 0 10px #161c23
+  -webkit-box-shadow: inset 0 0 10px #161c23
+  box-shadow:         inset 0 0 10px #161c23
+  border-bottom: 1px solid #00a7ff
+  background: #1e2934
+  color: #FFFFFF
+.email
+  span
+    color: #95989d
+
+.email .search
+  display: block
+  margin: 40px auto
+
+  &:after
+   left: 0
+
+.email .search .form-control
+  box-shadow: none
+
+
+.call_for_help
+  .search
+    margin: 0 10px
+  h2
+    padding-bottom: 30px
+
+
+.checkout
+  .sub_col
+    display: inline-block
+    margin-right: 100px
+    color: #a1a3a6
+.subname
+     color: #00a7ff
+     font-family: Stratun_B
+.checkout .panel
+  background: #131720
+  border: none
+  .panel-heading
+    background: #222833
+    border: none
+    padding: 10px 30px
+    h3
+     color: #00a7ff
+     font-family: Stratun_B
+     font-size: 20px
+     padding: 10px 0
+  .panel-body
+    padding: 30px
+
+.input_block
+  display: block
+  padding: 40px 0
+  .search
+    margin-right: 150px
+
+.checkout .back
+  float: left
+  margin: 50px 0
+  font-size: 16px
+  color: #a3a5a9
+.form-control
+  box-shadow: none
+.sub_table
+  width: 100%
+  border: none!important
+  &:hover
+    box-shadow: none!important
+
+section .main_table .sub_table:hover td:nth-child(1):after,
+section .main_table .sub_table:hover td:nth-last-child(1):before
+  height: 0
+
+.sub_table
+ .subname
+  font-size: 24px
+ img
+    border: 1px solid #0392de
+    border-radius: 10px
+
+.main_table .caret-span
+  border: none
+  background: transparent
+  color: #00a7ff
+
+#lightSlider
+  margin: 20px 0
+
+.top-list
+  background: #262c37!important
+
+.servers .name
+  padding: 50px 0
+.servers .main_table
+  margin: 0
+
+.donate
+  .tab_profile
+    a
+     display: block!important
+.donate .subname
+  background: #131820
+  font-size: 24px
+  padding: 10px
+
+.donate .tab_profile a:hover
+  -moz-box-shadow:    inset 0 0 10px #124565
+  -webkit-box-shadow: inset 0 0 10px #124565
+  box-shadow:         inset 0 0 10px #124565
+  background: #131821
+
+
+/* Create an active/current tablink class */
+.donate .tab_profile a:focus, .donate .active
+  -moz-box-shadow:    inset 0 0 10px #124565
+  -webkit-box-shadow: inset 0 0 10px #124565
+  box-shadow:         inset 0 0 10px #124565
+  border: none
+.donate
+ .goal
+  text-align: center
+  font-family: Stratum_L
+  background: #131720
+  margin: 10px 0
+ .name
+    font-size: 24px
+    color: #019df0
+    padding-top: 10px
+ .subname
+    font-size: 18px
+    font-family: Stratum_L
+    padding: 0
+.donate .goal span
+    color: #fff
+    padding-bottom: 10px
+    display: block
+
+.donate .image-container:hover .overlay
+  top: 0
+.donate .item_img
+  width: 100%
+.donate .top-row
+  padding: 10px 0
+  span
+    font-size: 20px
+    color: #858a8f
+    padding: 0 10px
+  .item_value
+    color: #00a7ff
+.donate .main-item
+  background: #202a33
+
+.donate .group_links
+  color: #858a8f
+  margin: 10px
+  display: block
+  padding-bottom: 10px
+.donate .overlay
+  background: url("../img/item_hover_corner.png")no-repeat
+  background-size: 100% 100%
+
+.view_product
+  display: none
+
+.donate .tabcontent
+  padding: 10px 0 0 0
+
+.my_button
+  background: #001824
+  width: 167px
+  height: 45px
+  margin: 50px auto
+  color: #bdc3c6
+  display: block
+  -moz-box-shadow:    inset 0 0 10px #124565
+  -webkit-box-shadow: inset 0 0 10px #124565
+  box-shadow:         inset 0 0 10px #124565
+  position: relative
+  border: none
+  &:after
+    content: ''
+    background: url("../img/border_table.png")no-repeat
+    width: 10px
+    height: 45px
+    position: absolute
+    left: 0
+    top: 0
+    background-size: contain
+  &:before
+    content: ''
+    background: url("../img/bordr_table_2.png")no-repeat
+    width: 10px
+    height: 45px
+    position: absolute
+    right: -5px
+    top: 0
+    background-size: contain
+#panel_members
+  display: none
+
+.tabcontent
+  .name
+    padding-bottom: 20px
+
+.donate .image-container
+  height: 100%
+.popup
+  position: relative
+  display: inline-block
+  width: 100%
+  z-index: 1
+.donate .glyphicon
+  color: #0486cb
+.popup .popuptext
+  visibility: hidden
+  z-index: 150
+  background-color: #0486cb
+  color: #fff
+  text-align: center
+  border-radius: 6px
+  position: fixed
+  bottom: 20%
+  left: 50%
+  margin-left: -160px
+  max-width: 692px
+  box-shadow: 0 0 5px #0486cb
+  border-color: #00a7ff
+
+.popup_wrapper
+    width: 100%
+    height: 2000px
+    background-color: rgba(0,0,0,0.5)
+    overflow: hidden
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 149
+    opacity: 0.9
+    visibility: hidden
+
+
+.popup .show
+  visibility: visible
+  -webkit-animation: fadeIn 1s
+  animation: fadeIn 1s
+
+.popup .panel-heading
+  background-color: #00a7ff
+  color: #FFFFFF
+  font-size: 20px
+  font-weight: bold
+  text-align: left
+  border-color: #00a7ff
+
+.popup .panel-body
+  background-color: #131720
+  img
+    float: left
+    margin: 10px
+  h3
+    font-size: 30px
+    color: #00a7ff
+    text-align: left
+
+.popup .popup_subinfo
+  text-align: left
+  padding: 10px
+  h4
+    color: #00a7ff
+
+.members
+  .view_product
+    color: #00a7ff
+  .view_product_span
+    color: #FFFFFF
+    padding: 0 10px
+
+#Player_info
+  .weapons_name
+   text-align:  center
+   padding: 40px 0
+   font-size: 24px
+   color: #00a7ff
+
+#Friends
+  .view_product
+    color: #00a7ff
+  .view_product_span
+      color: #FFFFFF
+      padding: 0 10px
+
+.navbar-collapse
+  padding: 0
+.navbar-nav
+  margin: 0
+
+#Chat .chat_header
+  background: #212731
+  padding: 20px 30px
+  h4
+    display: inline
+    color: #c6c7ca
+  p
+    color: #4d525a
+    span
+     color: #0986ca
+     padding: 0 10px
+#Chat .chat_form
+  .chat_body
+    background: #13171f
+    position: relative
+    .login_img_wraper
+     margin: 20px
+#Chat .chat_form
+  .chat_box
+    background-color: #FFFFFF
+    max-width: 494px
+    border-radius: 5px
+    display: inline-block
+    padding: 10px
+    position: relative
+    margin-top: 40px
+    .user_name
+
+      top: -18px
+      left: 0
+      position: absolute
+      color: #74777b
+    .time_chat
+
+      top: -18px
+      right: 0
+      position: absolute
+      color: #74777b
+#Chat .chat_you
+ .login_img_wraper
+   &:before
+     content: ''
+     background: url("../img/username_before.png")
+     width: 27px
+     height: 74px
+     right: 0
+     left: 73%
+     top: 0
+     position: absolute
+     transform: rotate(180deg)
+#Chat .chat_form
+  .chat_you
+   .chat_box
+    background: #00a7ff
+    color: #fff
+
+#Chat .chat_footer
+  background: #13171f
+  border-top: 1px solid #00a7ff
+  position: relative
+  .input_formessage
+   padding-top: 10px
+   width: 100%
+   padding-bottom: 100px
+   padding-left: 10px
+   background: transparent
+   border: 0
+   color: #FFFFFF
+#Chat .chat_footer
+  .send_message
+    position: absolute
+    top: 40%
+    right: 10px
+    background: none
+    border: none
+#Chat .chat_form
+  .chat_body
+    background: #13171f
+    position: relative
+    .user_typing
+
+     color: #282c33
+     left: 10px
+     bottom: 0
+     position: relative
+     clear: both
+
+
+
+.my_popup
+ max-width: 409px
+ height: 174px
+ background: #1e262f
+ display: block
+ margin: 20px
+ .img_wrapper
+   padding: 20px
+.main_popup_block
+  text-align: center
+  position: relative
+  span
+    font-size: 80px
+    position: absolute
+    color: #ff564a
+    display: block
+    left: 45%
+    top: -72px
+  p
+    color: #ff564a
+    padding-top: 50px
+
+.succes_popup
+  border: 1px solid #00a7ff
+  span
+
+    color: #00a7ff
+  p
+    color: #00a7ff
+
+
+
+
+
+
+
+
+
+
+
+
+input,
+input:active,
+input:focus
+  outline: none
+
+
+button,
+button:active,
+button:focus
+  outline: none
+
+
+.form-control::-webkit-input-placeholder
+  color: #252831
+.form-control:-moz-placeholder
+  color: #252831
+.form-control::-moz-placeholder
+  color: #252831
+.form-control:-ms-input-placeholder
+  color: #252831
+
+
+@media (max-width: 992px)
+  section .wrapper_main_table
+    overflow-x: scroll
+@media  (max-width: 767px)
+  .navbar-nav li
+   display: block
+@media (min-width: 1200px)
+  .container
+    width: 1108px
+  section .main_table tr:hover
+    td:nth-child(1)
+      &:after
+        content: ''
+        background: url("../img/border_table.png")no-repeat
+        width: 9px
+        height: 60px
+        position: absolute
+        left: 0
+        top: 0
+        background-size: contain
+    td:nth-last-child(1)
+      &:before
+        content: ''
+        background: url("../img/bordr_table_2.png")no-repeat
+        width: 9px
+        height: 60px
+        position: absolute
+        right: -2px
+        top: 0
+        background-size: contain
+  .donate .tab_profile a:hover
+    position: relative
+    &:after
+      content: ''
+      background: url("../img/border_big_left.png")no-repeat
+      width: 9px
+      height: 100%
+      position: absolute
+      left: 0
+      top: 0
+      background-size: contain
+    &:before
+     content: ''
+     background: url("../img/border_big_right.png")no-repeat
+     width: 9px
+     height: 100%
+     position: absolute
+     right: -2px
+     top: 0
+     background-size: contain
+@media (min-width: 992px)
+  #top
+    bottom: 150px
+    margin-right: 60px
+    cursor: pointer
+    display: none
+    font-size: 150%
+    position: fixed
+    right: 0
+    background: url(../img/arrow_png.png)no-repeat
+    width: 58px
+    height: 61px
+    box-shadow: 0 0 28px 4px rgba(0,167,255,0.1)
+    border-radius: 45px
+@media (max-width: 480px)
+  #login_button
+    width: 300px
+    height: 80px
+    &:after
+      height: 80px
+
+    &:before
+      height: 80px
+      right: -10px
+  .popuptext
+    width: 320px
+    bottom: 3%!important
+    .panel-body
+      img
+       margin: 5px 0
+
+
+
+
+

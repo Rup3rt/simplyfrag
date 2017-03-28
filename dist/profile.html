@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simplyfrag</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href="css/rectangles.css" rel="stylesheet" media="screen">
+    <link href="css/slick.css" rel="stylesheet" media="screen">
+    <link href="css/slick-theme.css" rel="stylesheet" media="screen">
+
+    <link type="text/css" rel="stylesheet" href="css/lightslider.min.css">
+    <link href="fonts/iconfont.css" rel="stylesheet" media="screen">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div id="top"></div>
+        <div class="top-header">
+            <div class="logo"><a href="#"> <img  class="logo_img img-responsive" src="img/logo.png"></a></div>
+            <div class="login_href pull-right">
+                <a href="login.html" class="login_text"><img src="img/login_icon.png">
+                    Login/Sign Up</a>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                        <li><a href="ban.html">Bans</a></li>
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Radio</a></li>
+                        <li><a href="#">Servers</a></li>
+                        <li><a href="#">Staff</a></li>
+                        <li><a href="members.html">Members</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </div>
+    </nav>
+</header>
+<section class="profile">
+    <div class="container">
+        <div class="name">
+            <h2>
+                WalkerJetBat's Profile
+            </h2>
+        </div>
+        <div class="profile_info">
+            <div class="profile_img">
+                <img src="img/profile_ico.png">
+            </div>
+            <span>Full Name:</span><span class="profile_info_span">Berk Alp</span><br>
+            <span>User Type: </span><span class="profile_info_span">Owner</span>
+        </div>
+        <div class="tab_profile">
+            <a href="javascript:void(0)"  class="tablinks" onclick="openCity(event, 'Player_info')" id="defaultOpen">Player info</a>
+            <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Friends')">Friends</a>
+            <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Ban_History')">Ban History</a>
+        </div>
+
+        <div id="Player_info" class="tabcontent">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="player_model">
+                    <div class="subname">Player Model</div>
+                    <img src="img/player_model_ico.png">
+                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="win_rate">
+                        <p>DarkRP Last Job<br>
+                        <span class="name">10 000</span></p>
+                        <p>Win Loss Ratio</p>
+                        <img src="img/win_rate_ico.png">
+                        <div class="win_rate_info">
+                        <p>Win/Losses<span class="win_loss_rate">17:22</span></p>
+                        <p>Wins percentage:<span class="win_loss_rate">46%</span></p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="win_rate_main_info">
+                    <table class="win_rate_sub_info">
+                        <tr>
+                            <td>SteamID</td>
+                            <td>STEAM_0:0:15456235</td>
+                        </tr>
+                        <tr>
+                            <td>Playtime</td>
+                            <td>00:00:00:01</td>
+                        </tr>
+                        <tr>
+                            <td>Money</td>
+                            <td>10 000</td>
+                        </tr>
+                        
+                    </table>
+                    <div class="name">Upgrades</div>
+                    <table class="win_rate_sub_info">
+                        <tr>
+                            <td>Ammo</td>
+                            <td>8 000</td>
+                        </tr>
+                        <tr>
+                            <td>Damage</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Health</td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <td>Speed</td>
+                            <td>2</td>
+                        </tr>
+
+                    </table>
+
+                </div>
+            </div>
+        </div>
+            <div class="weapons_name">Weapons equiped</div>
+            <div class="my_carousel" data-slick='{"slidesToShow": 5, "slidesToScroll": 5}'>
+                <div class="item_carousel">><img src="img/carousel_img.png"><span class="item_info">Pistol</span></div>
+                <div class="item_carousel">><img src="img/carousel_img.png"><span class="item_info">Pistol</span></div>
+                <div class="item_carousel">><img src="img/carousel_img.png"><span class="item_info">Pistol</span></div>
+                <div class="item_carousel">><img src="img/carousel_img.png"><span class="item_info">Pistol</span></div>
+                <div class="item_carousel">><img src="img/carousel_img.png"><span class="item_info">Pistol</span></div>
+                <div class="item_carousel">><img src="img/carousel_img.png"><span class="item_info">Pistol</span></div>
+                <div class="item_carousel">><img src="img/carousel_img.png"><span class="item_info">Pistol</span></div>
+                <div class="item_carousel">><img src="img/carousel_img.png"><span class="item_info">Pistol</span></div>
+
+
+            </div>
+            <div class="weapons_name">Weapons stored</div>
+            <div class="my_carousel" data-slick='{"slidesToShow": 5, "slidesToScroll": 5}'>
+                <div class="item_carousel">><img src="img/carousel_img.png"><span class="item_info">Pistol</span></div>
+                <div class="item_carousel">><img src="img/carousel_img.png"><span class="item_info">Pistol</span></div>
+                <div class="item_carousel">><img src="img/carousel_img.png"><span class="item_info">Pistol</span></div>
+
+            </div>
+
+        </div>
+        <div id="Friends" class="tabcontent">
+            <ul id="lightSlider">
+                <li>
+                    <div class="member">
+                        <a href="profile.html">
+                            <div class="image-container">
+                                <div class="rectangle_blue rec_1"></div>
+                                <div class="rectangle_blue rec_2"></div>
+                                <div class="rectangle_blue rec_3"></div>
+                                <div class="rectangle_blue rec_4"></div>
+                                <div class="overlay">
+                                    <div class="view_product"><span class="glyphicon glyphicon-user"></span><span
+                                            class="view_product_span">Profile</span></div>
+                                </div>
+                                <div class="member_wrapper">
+                                    <img class="img-responsive" src="img/member_1.png">
+                                </div>
+                            </div>
+                            <span class="member_nickname">Bl4d3z</span><br><span class="activity online">Online</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="member">
+                        <a href="profile.html">
+                            <div class="image-container">
+                                <div class="rectangle_blue rec_1"></div>
+                                <div class="rectangle_blue rec_2"></div>
+                                <div class="rectangle_blue rec_3"></div>
+                                <div class="rectangle_blue rec_4"></div>
+                                <div class="overlay">
+                                    <div class="view_product"><span class="glyphicon glyphicon-user"></span><span
+                                            class="view_product_span">Profile</span></div>
+                                </div>
+                                <div class="member_wrapper">
+                                    <img class="img-responsive" src="img/member_1.png">
+                                </div>
+                            </div>
+                            <span class="member_nickname">Unloved tasid - pixyte.co</span><br><span class="activity">Offline</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="member">
+                        <a href="profile.html">
+                            <div class="image-container">
+                                <div class="rectangle_blue rec_1"></div>
+                                <div class="rectangle_blue rec_2"></div>
+                                <div class="rectangle_blue rec_3"></div>
+                                <div class="rectangle_blue rec_4"></div>
+                                <div class="overlay">
+                                    <div class="view_product"><span class="glyphicon glyphicon-user"></span><span
+                                            class="view_product_span">Profile</span></div>
+                                </div>
+                                <div class="member_wrapper">
+                                    <img class="img-responsive" src="img/member_1.png">
+                                </div>
+                            </div>
+                            <span class="member_nickname">Bl4d3z</span><br><span class="activity">Offline</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="member">
+                        <a href="profile.html">
+                            <div class="image-container">
+                                <div class="rectangle_blue rec_1"></div>
+                                <div class="rectangle_blue rec_2"></div>
+                                <div class="rectangle_blue rec_3"></div>
+                                <div class="rectangle_blue rec_4"></div>
+                                <div class="overlay">
+                                    <div class="view_product"><span class="glyphicon glyphicon-user"></span><span
+                                            class="view_product_span">Profile</span></div>
+                                </div>
+                                <div class="member_wrapper">
+                                    <img class="img-responsive" src="img/member_1.png">
+                                </div>
+                            </div>
+                            <span class="member_nickname">Bl4d3z</span><br><span class="activity">Offline</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="member">
+                        <a href="profile.html">
+                            <div class="image-container">
+                                <div class="rectangle_blue rec_1"></div>
+                                <div class="rectangle_blue rec_2"></div>
+                                <div class="rectangle_blue rec_3"></div>
+                                <div class="rectangle_blue rec_4"></div>
+                                <div class="overlay">
+                                    <div class="view_product"><span class="glyphicon glyphicon-user"></span><span
+                                            class="view_product_span">Profile</span></div>
+                                </div>
+                                <div class="member_wrapper">
+                                    <img class="img-responsive" src="img/member_1.png">
+                                </div>
+                            </div>
+                            <span class="member_nickname">Bl4d3z</span><br><span class="activity">Offline</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="member">
+                        <a href="profile.html">
+                            <div class="image-container">
+                                <div class="rectangle_blue rec_1"></div>
+                                <div class="rectangle_blue rec_2"></div>
+                                <div class="rectangle_blue rec_3"></div>
+                                <div class="rectangle_blue rec_4"></div>
+                                <div class="overlay">
+                                    <div class="view_product"><span class="glyphicon glyphicon-user"></span><span
+                                            class="view_product_span">Profile</span></div>
+                                </div>
+                                <div class="member_wrapper">
+                                    <img class="img-responsive" src="img/member_1.png">
+                                </div>
+                            </div>
+                            <span class="member_nickname">Bl4d3z</span><br><span class="activity">Offline</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="member">
+                        <a href="profile.html">
+                            <div class="image-container">
+                                <div class="rectangle_blue rec_1"></div>
+                                <div class="rectangle_blue rec_2"></div>
+                                <div class="rectangle_blue rec_3"></div>
+                                <div class="rectangle_blue rec_4"></div>
+                                <div class="overlay">
+                                    <div class="view_product"><span class="glyphicon glyphicon-user"></span><span
+                                            class="view_product_span">Profile</span></div>
+                                </div>
+                                <div class="member_wrapper">
+                                    <img class="img-responsive" src="img/member_1.png">
+                                </div>
+                            </div>
+                            <span class="member_nickname">Bl4d3z</span><br><span class="activity">Offline</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div id="Ban_History" class="tabcontent">
+            <div class="wrapper_main_table">
+                <table class="main_table" cellpadding="0" cellspacing="0">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Username</th>
+                        <th>SteamID</th>
+                        <th>Date</th>
+                        <th>TimeLeft</th>
+                        <th>Expiry</th>
+                        <th>Admin</th>
+                        <th>Test</th>
+                    </tr>
+                        </thead>
+
+
+                    <tr>
+                        <td>1</td>
+                        <td>Bl4d3z</td>
+                        <td>STEAM_0:0:15430798</td>
+                        <td>29.05.2016 16:27:51</td>
+                        <td>Expired</td>
+                        <td>31.05.2016 17:22:11</td>
+                        <td>Insomnia @ SymplyFrag.co.uk</td>
+                        <td>Test</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Bl4d3z</td>
+                        <td>STEAM_0:0:15430798</td>
+                        <td>29.05.2016 16:27:51</td>
+                        <td>Expired</td>
+                        <td>31.05.2016 17:22:11</td>
+                        <td>Insomnia @ SymplyFrag.co.uk</td>
+                        <td>Test</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Bl4d3z</td>
+                        <td>STEAM_0:0:15430798</td>
+                        <td>29.05.2016 16:27:51</td>
+                        <td>Expired</td>
+                        <td>31.05.2016 17:22:11</td>
+                        <td>Insomnia @ SymplyFrag.co.uk</td>
+                        <td>Test</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Bl4d3z</td>
+                        <td>STEAM_0:0:15430798</td>
+                        <td>29.05.2016 16:27:51</td>
+                        <td>Expired</td>
+                        <td>31.05.2016 17:22:11</td>
+                        <td>Insomnia @ SymplyFrag.co.uk</td>
+                        <td>Test</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Bl4d3z</td>
+                        <td>STEAM_0:0:15430798</td>
+                        <td>29.05.2016 16:27:51</td>
+                        <td>Expired</td>
+                        <td>31.05.2016 17:22:11</td>
+                        <td>Insomnia @ SymplyFrag.co.uk</td>
+                        <td>Test</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Bl4d3z</td>
+                        <td>STEAM_0:0:15430798</td>
+                        <td>29.05.2016 16:27:51</td>
+                        <td>Expired</td>
+                        <td>31.05.2016 17:22:11</td>
+                        <td>Insomnia @ SymplyFrag.co.uk</td>
+                        <td>Test</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Bl4d3z</td>
+                        <td>STEAM_0:0:15430798</td>
+                        <td>29.05.2016 16:27:51</td>
+                        <td>Expired</td>
+                        <td>31.05.2016 17:22:11</td>
+                        <td>Insomnia @ SymplyFrag.co.uk</td>
+                        <td>Test</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Bl4d3z</td>
+                        <td>STEAM_0:0:15430798</td>
+                        <td>29.05.2016 16:27:51</td>
+                        <td>Expired</td>
+                        <td>31.05.2016 17:22:11</td>
+                        <td>Insomnia @ SymplyFrag.co.uk</td>
+                        <td>Test</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Bl4d3z</td>
+                        <td>STEAM_0:0:15430798</td>
+                        <td>29.05.2016 16:27:51</td>
+                        <td>Expired</td>
+                        <td>31.05.2016 17:22:11</td>
+                        <td>Insomnia @ SymplyFrag.co.uk</td>
+                        <td>Test</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Bl4d3z</td>
+                        <td>STEAM_0:0:15430798</td>
+                        <td>29.05.2016 16:27:51</td>
+                        <td>Expired</td>
+                        <td>31.05.2016 17:22:11</td>
+                        <td>Insomnia @ SymplyFrag.co.uk</td>
+                        <td>Test</td>
+                    </tr>
+
+                </table>
+            </div>
+            <nav aria-label="Table navigation" class="pagination_c">
+                <ul class="pagination">
+                    <li>
+                        <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li>
+                        <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+        </div>
+
+</section>
+<footer>
+    <nav class="navbar navbar-default navbar_footer">
+        <div class="container">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+                        <li><a href="#">Bans</a></li>
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Radio</a></li>
+                        <li><a href="#">Servers</a></li>
+                        <li><a href="#">Staff</a></li>
+                        <li><a href="#">Members</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+    </nav>
+    <div class="container">
+        <div class="bottom_footer">
+            <div class="copyright">© 2017 Copyright<br>Powered by Bootstrap and Steam</div>
+            <ul class="soc_media pull-right">
+                <li><a href="#"><span class="mf-uEA01-facebook"></span></a></li>
+                <li><a href="#"><span class="mf-uEA03-google-"></span></a></li>
+                <li><a href="#"><span class="mf-uEA06-youtube"></span></a></li>
+                <li><a href="#"><span class="mf-uEA05-twitter"></span></a></li>
+                <li><a href="#"><span class="mf-uEA06-youtube"></span></a></li>
+
+
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-1.12.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/arrow.js"></script>
+<script src="js/lightslider.min.js"></script>
+<script src="js/tabpanel.js"></script>
+<script src="js/slick.js"></script>
+
+</body>
+</html>

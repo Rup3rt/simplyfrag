@@ -1,0 +1,68 @@
+section .rectangle_blue {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background: #00a7ff;
+  transform: rotate(45deg);
+  transition: 0.5s;
+  left: 50%;
+  top: 50%;
+  right: 50%;
+  bottom:  50%;
+  opacity: 0;
+}
+.member
+{
+  position: relative;
+}
+.image-container:hover .rec_1 ,
+.image-container:hover .rec_2 ,
+.image-container:hover .rec_3 ,
+.image-container:hover .rec_4 { opacity: 1;}
+
+.image-container:hover .rec_1 {
+  top: -10px;
+  left: -10px;
+}
+.image-container:hover .rec_2 {
+  right: 10px;
+  top: -10px;
+  left: 100%;
+}
+.image-container:hover .rec_3 {
+  left: 100%;
+  top: 100%;
+  right: 10px;
+  bottom: 10px;
+}
+.image-container:hover .rec_4 {
+  left: -10px;
+  top: 100%;
+  right: 0;
+  bottom: 0;
+}
+#Friends .image-container:hover .rec_1 {
+  top: 10px;
+  left: 10px;
+  z-index: 150;
+}
+#Friends .image-container:hover .rec_2 {
+  right: 10px;
+  top: 10px;
+  left: 92%;
+  z-index: 150;
+}
+#Friends .image-container:hover .rec_3 {
+  left: 92%;
+  top: 92%;
+  right: 10px;
+  bottom: 10px;
+  z-index: 150;
+}
+#Friends .image-container:hover .rec_4 {
+  left: 10px;
+  top: 92%;
+  right: 0;
+  bottom: 0;
+  z-index: 150;
+}
